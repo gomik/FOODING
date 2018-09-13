@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="header.jsp" %>
-
+<div class="row" style="height:140px"></div>
 
 <div class="row">
 <!-- #1 메인검색 -->
@@ -451,7 +451,7 @@
 	
 	<p class="ptext" align="center">
 		<a href="#"> <br>아이디/비밀번호 찾기 </a><br>
-		<a href="#"> 회원가입 하러가기 </a>
+		<a href="<%= root %>/register/register_member.jsp"> 회원가입 하러가기 </a>
 	</p>
 		
 </div>
