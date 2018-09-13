@@ -9,7 +9,7 @@
 	<td><a href="/foodingProject/index.jsp">메인으로 / </a></td>
 	<td><a href="/foodingProject/store/storemain.jsp">가게상세 / </a></td>
 	<td><a href="/foodingProject/register/registerstore.jsp">가게등록 / </a></td>
-	<td><a href="/foodingProject/member/membermain.jsp"> 회원상세 / </a></td>
+	<td><a href="/foodingProject/mypage/board_list.jsp"> 마이페이지 / </a></td>
 	<td><a href="/foodingProject/admin/adminmain.jsp">관리자 </a></td>
 	</tr>
 	</table>

@@ -13,7 +13,7 @@
 <!--       <button type="button" class="btn btn-success" style="width:10%"></button> -->
       		<button type="button" class="btn btn-default" style="width:5%;height:40px"><span class="glyphicon glyphicon-th-large"></span></button>
       		<button type="button" class="btn btn-default" style="width:5%;height:40px"><span class="glyphicon glyphicon-align-justify"></span></button>
-      		<button type="button" class="btn btn-success" style="width:10%;height:40px"><span>목록으로</span></button>
+      		<a href="board_list.jsp"><button type="button" class="btn btn-success" style="width:10%;height:40px"><span>목록으로</span></button></a>
       		<br><br>
       		
       		<div class="panel-group">

@@ -5,7 +5,7 @@
 	<div class="col-sm-3" style="padding:50px 60px 0 20px">
 	<p class="engmenu">my menu</p><br>
 		<div class="list-group">
-	    	<a href="#" class="list-group-item list-group-item-action">나의게시글</a>
+	    	<a href="board_list.jsp" class="list-group-item list-group-item-action">나의게시글</a>
 	    	<a href="#" class="list-group-item list-group-item-action">나의정보</a>
 	    	<a href="#" class="list-group-item list-group-item-action">고객문의</a>
 	    	<a href="#" class="list-group-item list-group-item-action">회원탈퇴</a>

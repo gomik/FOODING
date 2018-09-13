@@ -106,7 +106,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -114,7 +114,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -122,7 +122,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -130,7 +130,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -145,7 +145,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -153,7 +153,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -161,7 +161,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -169,7 +169,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -184,7 +184,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -192,7 +192,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -200,7 +200,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -208,7 +208,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -251,7 +251,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -259,7 +259,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -267,7 +267,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -275,7 +275,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -290,7 +290,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -298,7 +298,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -306,7 +306,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -314,7 +314,7 @@
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
-						<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 						<div class="panel-body">Panel Content</div>
 						</div>
 						</a>
@@ -329,7 +329,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -337,7 +337,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -345,7 +345,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -353,7 +353,7 @@
 				<div class="col-lg-3">
 					<a href="#">
 					<div class="panel panel-default">
-					<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 					<div class="panel-body">Panel Content</div>
 					</div>
 					</a>
@@ -423,7 +423,7 @@
 		<div class="panel-group">
 				<a href="#">
 				<div class="panel panel-default">
-				<img class="imgcut" src="img/testimg.jpg" alt="testimg" style="width:100%">
+				<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
 				<div class="panel-body">[푸딩매거진 9월호]<br>선선해지는 가을밤 우리의 몸과 마음을 살찌우는 따끈따근 가을야식이 돌아왔다!</div>
 				</div>
 				</a>
