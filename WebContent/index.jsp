@@ -2,7 +2,11 @@
     pageEncoding="UTF-8"%>
 <%@ include file="header.jsp" %>
 <div class="row" style="height:140px"></div>
-
+<script>
+$(document).ready(function(){
+	$("#wrapper").smoothWheel()
+});
+</script>
 <div class="row">
 <!-- #1 메인검색 -->
 <div id="main" class="row_page">
