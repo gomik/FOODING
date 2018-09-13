@@ -4,6 +4,7 @@
 <div class="row">
 <div class="col-sm-2"></div>
 <div class="col-sm-8">
+<div class="row" style="height:140px"></div>
 <!---------------  여기까지 header 및 좌우여백  ------------------>
 
 <!-- 상단 가게정보  -->

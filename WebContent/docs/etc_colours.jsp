@@ -22,8 +22,8 @@ height:20px;
 <td class="box" style="background-color:#FFD802;"></td>
 <td class="box" style="background-color:#3984C0;"></td>
 <td class="box" style="background-color:#81AFCC;"></td>
-<td class="box" style="background-color:#FFD802;"></td>
-<td class="box" style="background-color:#FFD802;"></td>
+<td class="box" style="background-color:lightgreen;"></td>
+<td class="box" style="background-color:lightblue;"></td>
 <td class="box" style="background-color:#FFD802;"></td>
 <td class="box" style="background-color:#FFD802;"></td>
 <td class="box" style="background-color:#FFD802;"></td>
@@ -33,8 +33,8 @@ height:20px;
 <td class="text"> #FFD802</td>
 <td class="text"> #3984C0</td>
 <td class="text"> #81AFCC</td>
-<td class="text"> #FFD802</td>
-<td class="text"> #FFD802</td>
+<td class="text"> lightgreen</td>
+<td class="text"> lightblue</td>
 <td class="text"> #FFD802</td>
 <td class="text"> #FFD802</td>
 <td class="text"> #FFD802</td>
