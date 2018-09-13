@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#main"><span class="logo_title">F O O D I N G</span></a>
+      <a class="navbar-brand" href="<%=root%>/index.jsp"><span class="logo_title">F O O D I N G</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -43,4 +43,3 @@
     </div>
   </div>
 </nav>
-<div class="row" style="height:140px"></div>

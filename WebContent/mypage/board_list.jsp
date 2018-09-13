@@ -8,7 +8,6 @@
 <%@ include file = "sidebar.jsp"%>
 <div class="col-sm-9">
 <!---------------  여기까지 sidebar  ------------------>
-		
 			<div class="row" style="text-align:right">
 <!--       		<button type="button" class="btn btn-success" style="width:10%"></button> -->
 <!--       		<button type="button" class="btn btn-default" style="width:5%;height:40px"><span class="glyphicon glyphicon-th-large"></span></button> -->

@@ -8,7 +8,6 @@
 <%@ include file = "sidebar.jsp"%>
 <div class="col-sm-9">
 <!---------------  여기까지 sidebar  ------------------>
-	
 			<div class="row" style="text-align:right">
       		
       		<div class="panel-group">
