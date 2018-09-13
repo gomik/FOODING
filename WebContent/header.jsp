@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<% String root = request.getContextPath(); %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -12,114 +13,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/foodingProject/css/board.css">
+<link rel="stylesheet" href="/foodingProject/css/common.css">
 <style>
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
-.list-group-item{
-	padding: 20px;
-}
-.row_page_lg{
-	height:3000px;
-}
-.row_page{
-	height:1080px;
-}
-.row_left{
- 	margin:0px 100px 50px 10px;
-} 
-.logo_title{
-	font-size:140%;
-	font-family: 'Fredoka One', cursive;
-	color:#BBB;
-}
-body{
-	font-family: 'Noto Sans KR', sans-serif;
-}
-h1{
-	font-size: 50px;
-	font-weight: normal; 
-}
-.pmain{
-	font-size: 250%;
-	font-weight: 100;    /* 	option : 300,normal,500,Bold,900 */
-	line-height:150%;
-/* 	color:white;  */
-}
-.pmain_sub{
-	font-size: 18px;
-	font-weight: 300;    /* 	option : 300,normal,500,Bold,900 */
-}
-.ptitle{
-	font-size: 20px;
-	font-weight: 300; 
-	margin: 30px 0px;
-	line-height:200%;
-}
-.ptitle_white{
-	font-size: 20px;
-	font-weight: 300; 
-	margin: 30px 0px;
-	line-height:200%;
-	color:white;
-}
-.engtitle{
-	font-size: 500%;
-	font-weight:100;
-	color:white;
-	font-family: 'Fredoka One', cursive;
-  	word-spacing:150%;
-}
-.engmenu{
-	font-size: 300%;
-	font-weight:100;
-	color:#FDD802;
-	font-family: 'Fredoka One', cursive;
-  	word-spacing:150%;
-}
-.ptext{
-	font-size: 17px;
-	color:#999;
-	font-weight: 300; 
-	line-height:200%;
-}
-.pcate{
-	font-size: 15px;
-	color:#999;
-	font-weight: 500; 
-	line-height:100%;
-	margin:0px 0px 20px 0px;
-}
-.pbold{
-	font-size: 15px;
-	color:#777;
-	font-weight: 500; 
-	line-height:200%;
-}
-.thumbnail {
-    border: 1 dashed black;
-    border-radius: 20;
-}
-.thumbnail img {
-    width: 100%;
-    height: 100%;
-    margin: 5px 5px 0px 5px;
-    margin-bottom: 10px; 
-}
-.imgcut{
-	padding:5px;
-}
-@media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
-  input[type="text"]{
-  
-  height:60px;
-  width:400px;
-  border-radius:15px;
-  
-  }
 
 </style>
 </head>
