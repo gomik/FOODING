@@ -37,7 +37,7 @@
 	   					<hr>
 	   					
 	   					<div class="row_imgbox">
-	   					<img class="blog_view_img" src="<%=root%>/img/storeimg/test1.jpg" alt="testimg">
+	   					<img class="blog_view_img" src="<%=root%>/img/test/market.jpg" alt="testimg">
    						</div>
    						
 	   					<div class="row">
