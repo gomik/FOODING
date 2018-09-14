@@ -1,11 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file = "../header.jsp"%>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+#container{
+margin:0% 35%;
+}
+</style>
 <div class="row">
-<div class="col-sm-2"></div>
-<div class="col-sm-8">
-<div class="row" style="height:140px"></div>
+<div class="col-sm-1"></div>
+<div class="col-sm-10">
 <!---------------  여기까지 header 및 좌우여백  ------------------>
+<div class="row" style="height:140px"></div>
 
 <!-- 상단 가게정보  -->
 <div id="store_info" class="row" style="padding:10px 20px">
@@ -111,12 +119,99 @@
 			<div class="col-sm-3" style="padding:10px 5px">
 			<img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
 			</div>
-		</div>
-		<div id="notice" class="tab-pane fade">
-
-		<!-- 공지사항  -->
-
+			<div class="col-sm-3" style="padding:10px 5px">
+			<img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
 			</div>
+			<div id="container">
+	<ul class="pagination">
+	<li><a href="#">Previous</a></li>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+</div>
+		</div>
+		
+
+		
+	    <div id="notice" class="container tab-pane fade"><br>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>글번호</th>
+        <th>제목</th>
+        <th>작성일자</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12</td>
+        <td>9월 23일 일요일 휴장 공지</td>
+        <td>2018.09.11</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	  <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+  		<div id="container">
+	<ul class="pagination">
+	<li><a href="#">Previous</a></li>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+</div>
+    </div>
+			
 		<div id="review" class="tab-pane fade">
 		  
 		<!-- 리뷰게시판  -->
@@ -124,8 +219,10 @@
 		<div class="container mt-3">
   		<h1> 5.0 <span class="badge badge-success">123명</span></h1>
   		<!-- Media top -->
-  		<div class="media">
+  			  <div class="media">
+  <div class="media-left media-middle">
 		    <img src="/foodingProject/img/storeimg/1.jpeg" class="align-self-center mr-3" style="width:200px">
+		    </div>
 		    <div class="media-body">
 		      <h5>반포 한강 밤도깨비야시장, 드디어 가봄! (+푸드트럭 후기!) </h5>
 		      <p>시간이랑 푸드트럭, 플리마켓, 공연 등 정보 나와있어요 반포 낭만달빛마켓! 반포 한강공원 밤도깨비야시장은 지하철 이용한다면 고속터미널역 8-1번 출구로 나오면...</p>
@@ -135,8 +232,10 @@
 		  </div>
 		
 		  <!-- Media middle -->
-		  <div class="media mt-3">
+		  <div class="media">
+  <div class="media-left media-middle">
 		    <img src="/foodingProject/img/storeimg/2.jpeg" class="align-self-center mr-3" style="width:200px">
+		    </div>
 		    <div class="media-body">
 		      <h5>반포 한강 밤도깨비야시장, 드디어 가봄! (+푸드트럭 후기!) </h5>
 		      <p>시간이랑 푸드트럭, 플리마켓, 공연 등 정보 나와있어요 반포 낭만달빛마켓! 반포 한강공원 밤도깨비야시장은 지하철 이용한다면 고속터미널역 8-1번 출구로 나오면...</p>
@@ -146,8 +245,10 @@
 		   </div>
 		
 		  <!-- Media bottom -->
-		  <div class="media mt-3">
+		  	  <div class="media">
+  <div class="media-left media-middle">
 		    <img src="/foodingProject/img/storeimg/3.jpeg" class="align-self-center mr-3" style="width:200px">
+		    </div>
 		    <div class="media-body">
 		      <h5>반포 한강 밤도깨비야시장, 드디어 가봄! (+푸드트럭 후기!) </h5>
 		      <p>시간이랑 푸드트럭, 플리마켓, 공연 등 정보 나와있어요 반포 낭만달빛마켓! 반포 한강공원 밤도깨비야시장은 지하철 이용한다면 고속터미널역 8-1번 출구로 나오면...</p>
@@ -157,7 +258,20 @@
 		  </div>
 		</div>
 		
+				<div id="container">
+	<ul class="pagination">
+	<li><a href="#">Previous</a></li>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+</div>
+		
 		  </div>
+		  
 		</div>
 				
 		
@@ -169,5 +283,5 @@
 <!---------------  여기부터 footer 및 좌우여백  ------------------>
 </div>
 <div class="col-sm-2"></div>
-</div>
+
 <%@ include file = "../footer.jsp"%>
