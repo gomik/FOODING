@@ -23,8 +23,8 @@
 
 		<br><br>
 		<div class="input-group-btn">
-		<a href="<%=root%>/index.jsp"><button type="button" class="btn btn-warning" style="width:20%;height:50px;;margin:5px 0;border-radius:10px">로그인</button><br><br></a>
-		<a href="<%=root%>/index.jsp"><button type="button" class="btn btn-warning" style="width:20%;height:50px;;margin:5px 0;border-radius:10px">고객문의</button><br><br></a>
+		<a href="<%=root%>/popup/login.jsp"><button type="button" class="btn btn-default" style="width:20%;height:50px;;margin:5px 0;border-radius:10px">로그인</button><br><br></a>
+		<a href="<%=root%>/index.jsp"><button type="button" class="btn btn-default" style="width:20%;height:50px;;margin:5px 0;border-radius:10px">고객문의</button><br><br></a>
 		</div>
 		</div>
 

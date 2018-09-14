@@ -99,15 +99,7 @@ h1{
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
-input[type="password"]{
-  
-  height:60px;
-  width:400px;
-  border-radius:15px;
-  
-  }
-  
- input[type="text"]{
+  input[type="text"]{
   
   height:60px;
   width:400px;

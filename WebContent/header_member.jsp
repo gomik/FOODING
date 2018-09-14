@@ -32,11 +32,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">소개</a></li>
-        <li><a href="#main">검색</a></li>
-        <li><a href="#explorer">탐색</a></li>
-        <li><a href="#ask">문의</a></li>
-        <li><a href="#login">로그인</a></li>
+        <li style="ont-size: 40px;"><a href="#ask"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="#ask"><span class="glyphicon glyphicon-search"></span></a></li>
+        <li><a href="#ask"><span class="glyphicon glyphicon-globe"></span></a></li>
+        <li><a href="#ask"><span class="glyphicon glyphicon-heart glyphicon-heart-lg"></span></a></li>
+        <li><a href="#ask"><span class="glyphicon glyphicon-user"></span></a></li>
       </ul>
     </div>
   </div>

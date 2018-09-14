@@ -33,7 +33,7 @@ $(document).ready(function(){
 		</div>
 		
 		<div class="row" align="center">		
-		<p class="engtitle" style="color:#FDD802">
+		<p class="engtitle" style="color:#ddd">
 		<br><br>LET'S FOODING</p>
 		
 		<p class="ptext">
@@ -49,7 +49,7 @@ $(document).ready(function(){
 </div>
 
 <!-- #2 소개 -->
-<div id="about" class="row_page" style="background-color:#FDD802;">
+<div id="about" class="row_page" style="background-color:#ddd;">
 <div class="col-sm-1"></div>
 <div class="col-sm-10" style="top:15%">
 		<p class="engtitle">about</p>
@@ -60,10 +60,10 @@ $(document).ready(function(){
 		</p>
 		<br><br>
 		<p class="ptext">
-		<a href="#main"># 지역, 메뉴, 가게명으로 원하는 가게를 찾을 수 있습니다.<br></a>
-		<a href="#explore"># 인기있는 가게정보, 가까운 지역의 이벤트 소식을 알 수 있습니다.<br></a>
-		<a href="#login"># 가게나 친구를 팔로우 하여 소식을 받아 볼 수 있습니다.<br></a>
-		<a href="#login"># 글을 쓰거나 내 정보를 관리 할 수 있습니다.<br></a>
+		<a href="<%=root%>/popup/login.jsp"># 지역, 메뉴, 가게명으로 원하는 가게를 찾을 수 있습니다.<br>
+		# 인기있는 가게정보, 가까운 지역의 이벤트 소식을 알 수 있습니다.<br>
+		# 가게나 친구를 팔로우 하여 소식을 받아 볼 수 있습니다.<br>
+		# 글을 쓰거나 내 정보를 관리 할 수 있습니다.<br></a>
 		</p>
 		</div>
 
@@ -74,177 +74,24 @@ $(document).ready(function(){
 </div>
 
 
-
-
 <!-- #3 메인탐색 -->
 <div id="explorer" class="row">
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
-		<p class="engtitle" style="color:#FDD802">
+		<p class="engtitle" style="color:#ddd">
 		<br><br>explorer</p>
 </div>
 <div class="col-sm-1"></div>
 </div>
 
-<div class="row_page">
+<div class="row">
 <div class="col-sm-1"></div>
 <div class="col-sm-7" style="top:5%">
 
 	<!-- myCarousel 1 -->
-	<div class="row_left">
-	<p class="pcate">9월 첫째주 가장 인기있는 가게 BEST12</p>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-    
-	<div class="item active">
-	      <div class="row">
-		      <div class="panel-group">
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-				</div>
-	      </div>
-	      </div>
-
-	<div class="item">
-		<div class="row">
-	 			<div class="panel-group">
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-				</div>
-		</div>
-		</div>
-    
-	<div class="item">
-		<div class="row">
-		 <div class="panel-group">
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-			</div>
-	</div> 
-	</div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    
-	</div>
-	</div>
-	</div>
-
-	<!-- myCarousel 2 -->
-	<div class="row_left">
+	<div class="row" style="margin:30px 50px 10px 10px;">
 	<p class="pcate">단골수 급상승! 떠오르는 핫한가게들!</p>
 	<div id="myCarousel2" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel2" data-slide-to="1"></li>
-      <li data-target="#myCarousel2" data-slide-to="2"></li>
-    </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -252,6 +99,7 @@ $(document).ready(function(){
 	      <div class="item active">
 	      <div class="row">
 		      <div class="panel-group">
+		      <%for(int i=0 ; i<4 ; i++){ %>
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
@@ -260,30 +108,7 @@ $(document).ready(function(){
 						</div>
 						</a>
 					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
+				<%} %>
 				</div>
 	      </div>
 	      </div>
@@ -291,6 +116,7 @@ $(document).ready(function(){
 		<div class="item">
 		<div class="row">
 	 			<div class="panel-group">
+					 <%for(int i=0 ; i<4 ; i++){ %>
 					<div class="col-lg-3">
 						<a href="#">
 						<div class="panel panel-default">
@@ -299,72 +125,27 @@ $(document).ready(function(){
 						</div>
 						</a>
 					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-3">
-						<a href="#">
-						<div class="panel panel-default">
-						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-						<div class="panel-body">Panel Content</div>
-						</div>
-						</a>
-					</div>
+				<%} %>
 				</div>
-		</div>
-		</div>
+	      </div>
+	      </div>
     
 	<div class="item">
 		<div class="row">
 		 <div class="panel-group">
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
+				 <%for(int i=0 ; i<4 ; i++){ %>
+					<div class="col-lg-3">
+						<a href="#">
+						<div class="panel panel-default">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
+						<div class="panel-body">Panel Content</div>
+						</div>
+						</a>
 					</div>
-					</a>
+				<%} %>
 				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-				<div class="col-lg-3">
-					<a href="#">
-					<div class="panel panel-default">
-					<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
-					<div class="panel-body">Panel Content</div>
-					</div>
-					</a>
-				</div>
-			</div>
-	</div> 
-	</div>
+	      </div>
+	      </div>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
@@ -380,7 +161,80 @@ $(document).ready(function(){
 	</div>
 	</div>
 
-	<div class="row_left">
+	<!-- myCarousel 2 -->
+	<div class="row" style="margin:30px 50px 10px 10px;">
+	<p class="pcate">단골수 급상승! 떠오르는 핫한가게들!</p>
+	<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+    
+	      <div class="item active">
+	      <div class="row">
+		      <div class="panel-group">
+		      <%for(int i=0 ; i<4 ; i++){ %>
+					<div class="col-lg-3">
+						<a href="#">
+						<div class="panel panel-default">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
+						<div class="panel-body">Panel Content</div>
+						</div>
+						</a>
+					</div>
+				<%} %>
+				</div>
+	      </div>
+	      </div>
+
+		<div class="item">
+		<div class="row">
+	 			<div class="panel-group">
+					 <%for(int i=0 ; i<4 ; i++){ %>
+					<div class="col-lg-3">
+						<a href="#">
+						<div class="panel panel-default">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
+						<div class="panel-body">Panel Content</div>
+						</div>
+						</a>
+					</div>
+				<%} %>
+				</div>
+	      </div>
+	      </div>
+    
+	<div class="item">
+		<div class="row">
+		 <div class="panel-group">
+				 <%for(int i=0 ; i<4 ; i++){ %>
+					<div class="col-lg-3">
+						<a href="#">
+						<div class="panel panel-default">
+						<img class="imgcut" src="img/test/testimg.jpg" alt="testimg" style="width:100%">
+						<div class="panel-body">Panel Content</div>
+						</div>
+						</a>
+					</div>
+				<%} %>
+				</div>
+	      </div>
+	      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+	</div>
+	</div>
+	</div>
+
+	<div class="row" style="margin:30px 50px 10px 10px;">
 		<p class="pcate">꼬지전문 푸드트럭이 종로를 지나갑니다. </p>
 		<div class="panel-group">
 				<a href="#">
@@ -447,15 +301,13 @@ $(document).ready(function(){
 	<p class="engtitle" style="color:#EDEDED">member</p><br>
 	<form class="form" name="user_word">
 		<input type="text" height="100px" class="form-control" placeholder="아이디" required><br>
-		<input type="text" class="form-control" placeholder="비밀번호" required><br>
-		<div class="input-group-btn"  align="center">
-			<button type="button" class="btn btn-default">로그인</button>
-		</div>
+		<input type="password" class="form-control" placeholder="비밀번호" required><br>
 	</form>
-	
+
 	<p class="ptext" align="center">
-		<a href="#"> <br>아이디/비밀번호 찾기 </a><br>
-		<a href="<%= root %>/register/register_member.jsp"> 회원가입 하러가기 </a>
+		<button type="button" class="btn btn-default btn-md" onclick="javascript:loginCheck()" style="margin:10px 0px 20px 0px">로그인</button><br>
+		<a href="<%= root %>/popup/findpass.jsp"> 비밀번호 찾기&nbsp; </a> | &nbsp;
+		<a href="<%= root %>/register/register_member.jsp"> 회원가입</a>
 	</p>
 		
 </div>
@@ -482,9 +334,7 @@ $(document).ready(function(){
 		<form class="form" name="user_word">
 		<input type="text" class="form-control" style="width:100%" placeholder="답변을 받으실 email" required><br>
 		<textarea class="form-control" rows="15" placeholder="내용을 입력해주세요" required></textarea><br>
-		<div class="input-group-btn">
-			<button type="button" class="btn btn-default">보내기</button>
-		</div>
+		<button type="button" class="btn btn-default" onclick="javascript:sendEmail()">보내기</button>
 		</form>
 </div>
 <div class="col-sm-1"></div>

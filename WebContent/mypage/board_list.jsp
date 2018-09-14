@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file = "/header.jsp"%>
+<%@ include file = "/header_member.jsp"%>
 <div class="row">
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
@@ -16,27 +16,25 @@
       		<br><br>
       		
       		<div class="panel-group">
- 			 	<div class="panel panel-default" style="background-color:#fff;border-radius:20px;padding:20px 0">
+ 			 	<div class="panel panel-default" style="background-color:#fff;border-radius:20px;padding:20px 0 10px 0">
    					 <div class="panel-body" >
    					 
    					 <div class="col-sm-1"></div>
    					 <div class="col-sm-10">
    						<!-- 글목록 시작-->
-   						<div class="row" style="height:15px" ></div>
-   						
+   						<div class="row" style="height:20px" ></div>
    						<% for(int i=0 ; i<10 ; i++){%>
 		   					<div class="row">
-		   					<div class="col-sm-1" style="padding: 14px 10px 0px 0px">
-		   					<span style="color:#ddd;font-size: 130%">145566</span></div>
+		   					<div class="col-sm-1" style="padding: 17px 10px 0px 0px">
+		   					<span style="color:#ddd;font-size: 100%">145566</span></div>
 		   					<div class="col-sm-7" style="padding: 10px 10px 0px 15px">
 		   					<div class="list_view_title"><a href="board_view.jsp">[ 광장시장 마약김밥 도장깨기! ]</a></div>
 		   					</div>
-		   					<div class="col-sm-4" style="padding: 17px 20px 0px 20px">
-		   					<span style="color:#555;font-size: 110%"> (18.09.12 18:12) <a href="#">&nbsp; 삭제</a></span></div>
+		   					<div class="col-sm-4" style="padding: 17px 10px 0px 0px">
+		   					<span style="color:#999;font-size: 110%"> (18.09.12 18:12) <a href="#">&nbsp;삭제</a></span></div>
 		   					</div>
-	   					<hr>
+		   					<hr>
 	   					<%}%>
-	   					
 	   					<div class="row">
 	   					<div class="col-sm-2"></div>
 	   					<div class="col-sm-8" style="text-align:center;">

@@ -24,8 +24,8 @@ height:20px;
 <td class="box" style="background-color:#81AFCC;"></td>
 <td class="box" style="background-color:lightgreen;"></td>
 <td class="box" style="background-color:lightblue;"></td>
-<td class="box" style="background-color:#FFD802;"></td>
-<td class="box" style="background-color:#FFD802;"></td>
+<td class="box" style="background-color:#FFD100;"></td>
+<td class="box" style="background-color:#FF9800;"></td>
 <td class="box" style="background-color:#FFD802;"></td>
 <td class="box" style="background-color:#FFD802;"></td>
 </tr>
@@ -35,8 +35,8 @@ height:20px;
 <td class="text"> #81AFCC</td>
 <td class="text"> lightgreen</td>
 <td class="text"> lightblue</td>
-<td class="text"> #FFD802</td>
-<td class="text"> #FFD802</td>
+<td class="text"> #FFD100</td>
+<td class="text"> #FF9800</td>
 <td class="text"> #FFD802</td>
 <td class="text"> #FFD802</td>
 </tr>

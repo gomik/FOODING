@@ -51,9 +51,7 @@
 		<input type="text" class="form-control" placeholder="사진제출" required><br>
 		
 		<br><br>
-		<div class="input-group-btn"  align="center">
-		<button type="button" class="btn btn-primary" style="width:15%">제출하기</button>
-		</div>
+		<button type="button" class="btn btn-default" style="width:15%">제출하기</button>
 		
 		
 		</form>

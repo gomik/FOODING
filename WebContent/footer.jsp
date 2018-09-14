@@ -19,7 +19,7 @@
 	<b>copyright.</b> team FOODING
 </div>
 </div>
-
+</div>
 <!-- <div class="jumbotron text-right" style="padding-right:30px"fixed="fixed"> -->
 <!--  <h5>company@Fooding</h5> -->
 
