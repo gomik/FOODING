@@ -34,11 +34,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">소개</a></li>
-        <li><a href="#main">검색</a></li>
-        <li><a href="#explorer">탐색</a></li>
-        <li><a href="#ask">문의</a></li>
-        <li><a href="#login">로그인</a></li>
+        <li><a href="<%=root%>/admin/AdminQnA.jsp">고객Q&A</a></li>
+        <li><a href="<%=root%>/admin/Admin_Magazine.jsp">매거진</a></li>
+       <!-- <li><a href="#login">로그인</a></li> -->
       </ul>
     </div>
   </div>

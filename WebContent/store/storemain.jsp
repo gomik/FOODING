@@ -4,21 +4,46 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 37.484700, lng: 126.900169};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 17, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFyFvbPvkwnky32MyftWEcLQIp3vjz93A&callback=initMap">
+    </script>
 <style>
 #container{
-margin:0% 35%;
+margin:0% 38%;
 }
+#map {
+        height: 320px;  /* The height is 400 pixels */
+        width: 108%;  /* The width is the width of the web page */
+       }
 </style>
+<div class="row" style="height:140px"></div>
 <div class="row">
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
 <!---------------  여기까지 header 및 좌우여백  ------------------>
-<div class="row" style="height:140px"></div>
+
+
+<!-- 월화수목금토일, 직관적으로 확인가능한 장소정보 넣기 -->
+<!-- 작은지도(이미지) / 클릭했을때 큰지도(상세지도) -->
+
+
 
 <!-- 상단 가게정보  -->
 <div id="store_info" class="row" style="padding:10px 20px">
 	<div class="col-sm-4">
-		<div class="row" id="map"><img src="/foodingProject/img/storeimg/smallmap.jpg" style="width:100%;height:100%"></div><br>
+		<div class="row" id="map"></div><br>
 		<div class="row">
 			<table class="table table-bordered" style="text-align:center">
 				<tr>
@@ -58,7 +83,7 @@ margin:0% 35%;
 			</table>
 	</div>
 	<div class="col-sm-4">
-	    <img class="store_main_img" src="/foodingProject/img/storeimg/foodtruck.jpg" style="width:100%;">
+	    <img class="store_main_img" src="<%=root %>/img/storeimg/foodtruck.jpg" style="width:100%;">
       	<h4>더푸드트럭커스</h4>
       	<button type="button" class="btn btn-success" style="width:49%">단골가게추가</button>
       	<button type="button" class="btn btn-primary" style="width:49%">리뷰등록</button>
@@ -128,8 +153,6 @@ margin:0% 35%;
   <li><a href="#">1</a></li>
   <li><a href="#">2</a></li>
   <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
   <li><a href="#">Next</a></li>
 </ul>
 </div>
@@ -199,16 +222,14 @@ margin:0% 35%;
       </tr>
     </tbody>
   </table>
-  		<div id="container">
+  <div id="container">
 	<ul class="pagination">
 	<li><a href="#">Previous</a></li>
-  <li><a href="#">1</a></li>
-  <li><a href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#">Next</a></li>
-</ul>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+   <li><a href="#">3</a></li>
+   <li><a href="#">Next</a></li>
+ </ul>
 </div>
     </div>
 			
@@ -264,8 +285,6 @@ margin:0% 35%;
   <li><a href="#">1</a></li>
   <li><a href="#">2</a></li>
   <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
   <li><a href="#">Next</a></li>
 </ul>
 </div>
@@ -280,7 +299,7 @@ margin:0% 35%;
 </div>
 </div>
 
-<!---------------  여기부터 footer 및 좌우여백  ------------------>
+<!———————  여기부터 footer 및 좌우여백  —————————>
 </div>
 <div class="col-sm-2"></div>
 

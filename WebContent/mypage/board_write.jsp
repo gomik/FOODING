@@ -10,7 +10,7 @@
 <div class="col-sm-9">
 <!---------------  여기까지 sidebar  ------------------>
 			<div class="row" style="text-align:right">
-	   		<a href="board_list.jsp"><button type="button" class="btn btn-success" style="width:10%;height:40px"><span>목록으로</span></button></a>
+	   		<a href="<%=root%>/mypage/board_list.jsp"><button type="button" class="btn btn-success" style="width:10%;height:40px"><span>목록으로</span></button></a>
       		<br><br>
       		
       		<div class="panel-group">

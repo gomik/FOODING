@@ -1,11 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="header.jsp" %>
+<%
+String alert = (String) request.getAttribute("alert");
+if (alert != null) {
+%>
+<script type="text/javascript">
+<%=alert%>
+</script>
+<%
+}
+%>
 <div class="row" style="height:140px"></div>
 <script>
 $(document).ready(function(){
 	$("#wrapper").smoothWheel()
 });
+
+function loginMember() {
+	if (document.loginForm.id.value == "") {
+		alert("아이디를 입력해주십시요.");
+		return;
+	} else if (document.loginForm.pw.value == "") {
+		alert("비밀번호를 입력해주십시요.");
+		return;
+	} else {
+		document.loginForm.action = "<%=root%>/member";
+		document.loginForm.submit();
+	}
+}
 </script>
 <div class="row">
 <!-- #1 메인검색 -->
@@ -299,17 +322,18 @@ $(document).ready(function(){
 <div class="col-sm-4"></div>
 <div class="col-sm-4" style="top:20%">
 	<p class="engtitle" style="color:#EDEDED">member</p><br>
-	<form class="form" name="user_word">
-		<input type="text" height="100px" class="form-control" placeholder="아이디" required><br>
-		<input type="password" class="form-control" placeholder="비밀번호" required><br>
-	</form>
+	<form class="form" name="loginForm" method="POST" action="">
+	<input type="hidden" name="act" value="loginMember">
+		<input type="text" name="id" id="id" height="100px" class="form-control" placeholder="아이디" required><br>
+		<input type="password" name="pw" id="pw" class="form-control" placeholder="비밀번호" required><br>
+
 
 	<p class="ptext" align="center">
-		<button type="button" class="btn btn-default btn-md" onclick="javascript:loginCheck()" style="margin:10px 0px 20px 0px">로그인</button><br>
+		<button type="button" class="btn btn-default btn-md" onclick="javascript:loginMember()" style="margin:10px 0px 20px 0px">로그인</button><br>
 		<a href="<%= root %>/popup/findpass.jsp"> 비밀번호 찾기&nbsp; </a> | &nbsp;
-		<a href="<%= root %>/register/register_member.jsp"> 회원가입</a>
+		<a href="<%= root %>/member?act=mvRegister"> 회원가입</a>
 	</p>
-		
+	</form>	
 </div>
 <div class="col-sm-4"></div>
 </div>

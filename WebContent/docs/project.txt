@@ -1,0 +1,243 @@
+- fooding
+
+	- src
+		- com.fooding.action
+			- Action.java					(I)
+
+		
+		-----------------------------------------------------------------
+		-------------------------회          원--------------------------
+		-----------------------------------------------------------------
+
+		- com.fooding.admin.member.controller
+			- MemberAdminController.java	(/memberadmin)
+			가게회원으로 등록, Q&A 답변
+		
+		- com.fooding.admin.member.model
+			- MemberCategoryDto.java
+		
+		- com.fooding.admin.member.service
+			- MemberAdminService.java 		(I)
+			- MemberAdminServiceImpl.java
+		
+		- com.fooding.admin.member.dao
+			- MemberAdminDao.java 			(I)
+			- MemberAdminDaoImpl.java
+				
+		- com.fooding.member.action
+			- MemberListAction.java
+			- MemberJoinAction.java
+			- MemberLoginAction.java
+			- MemberLogoutAction.java
+			- MemberViewAction.java
+			- MemberMoveModifyAction.java
+			- MemberModifyAction.java
+			- MemberDeleteAction.java
+		
+		- com.fooding.member.controller
+			- MemberController.java			(/member)
+		
+		- com.fooding.member.service
+			- MemberService.java 			(I)
+			- MemberServiceImpl.java
+		
+		- com.fooding.member.dao
+			- MemberDao.java 				(I)
+			- MemberDaoImpl.java
+		
+		- com.fooding.member.common.service
+			- MemberCommonService.java 			(I)
+			- MemberCommonServiceImpl.java
+		
+		- com.fooding.member.common.dao
+			- MemberCommonDao.java 				(I)
+			- MemberCommonDaoImpl.java
+		
+		- com.fooding.member.model
+			- MemberDto.java
+			- FollowDto.java
+			- LikeDto.java
+			- BookmarkDto.java
+			- MemberCategoryDto.java
+		
+		-----------------------------------------------------------------
+		-------------------------가          게--------------------------
+		-----------------------------------------------------------------
+			
+		- com.fooding.admin.store.controller
+			- StoreAdminController.java		(/storeadmin)
+			파워링크, 가게등록
+		
+		- com.fooding.admin.store.model
+			- ?
+		
+		- com.fooding.admin.store.service
+			- StoreAdminService.java 		(I)
+			- StoreAdminServiceImpl.java
+		
+		- com.fooding.admin.store.dao
+			- StoreAdminDao.java 			(I)
+			- StoreAdminDaoImpl.java
+		
+		- com.fooding.store.album.action
+			- StoreAlbumListAction.java
+			- StoreAlbumWriteAction.java
+			- StoreAlbumViewAction.java
+			- StoreAlbumMoveModifyAction.java
+			- StoreAlbumModifyAction.java
+			- StoreAlbumDeleteAction.java
+				
+		- com.fooding.store.action
+			- StoreListAction.java
+			- StoreJoinAction.java
+			- StoreViewAction.java			(상세 페이지?)
+			- StoreMoveModifyAction.java
+			- StoreModifyAction.java
+			- StoreDeleteAction.java
+		
+		- com.fooding.store.controller
+			- StoreAlbumController.java			(/album)
+			- StoreController.java				(/store)
+		
+		- com.fooding.store.model
+			- StoreAlbumDto.java
+			- StoreDto.java
+			- StoreDetailDto.java
+			- StoreMenuDto.java
+			- PowerLinkDto.java
+			- StoreStar.java
+		
+		- com.fooding.store.service
+			- StoreAlbumService.java 			(I)
+			- StoreAlbumServiceImpl.java
+			- StoreService.java 				(I)
+			- StoreServiceImpl.java
+			- StoreDetailService.java			(I)
+			- StoreDetailServiceImpl.java
+			- StoreMenuService.java				(I)
+			- StoreMenuServiceImpl.java
+			- PowerLinkService.java				(I)
+			- PowerLinkServiceImpl.java
+			- StoreStarService.java				(I)
+			- StoreStarServiceImpl.java
+		
+		- com.fooding.store.dao
+			- StoreAlbumDao.java 				(I)
+			- StoreAlbumDaoImpl.java
+			- StoreDao.java 					(I)
+			- StoreDaoImpl.java
+			- StoreDetailDao.java				(I)
+			- StoreDetailDaoImpl.java
+			- StoreMenuDao.java					(I)
+			- StoreMenuDaoImpl.java
+			- PowerLinkDao.java					(I)
+			- PowerLinkDaoImpl.java
+			- StoreStarDao.java					(I)
+			- StoreStarDaoImpl.java
+		
+		- com.fooding.store.common.service
+			- CommonService.java 			(I)
+			- CommonServiceImpl.java
+		
+		- com.fooding.store.common.dao
+			- CommonDao.java 				(I)
+			- CommonDaoImpl.java
+		
+		-----------------------------------------------------------------
+		-------------------------게    시    판--------------------------
+		-----------------------------------------------------------------
+
+
+		- com.fooding.admin.board.controller
+			- BoardAdminController.java		(/boardadmin)
+		
+		- com.fooding.admin.board.model
+			- BoardTypeDto.java
+		
+		- com.fooding.admin.board.service
+			- BoardAdminService.java 		(I)
+			- BoardAdminServiceImpl.java
+		
+		- com.fooding.admin.board.dao
+			- BoardAdminDao.java 			(I)
+			- BoardAdminDaoImpl.java
+		
+		- com.fooding.board.album.action
+			- BoardAlbumListAction.java
+			- BoardAlbumWriteAction.java
+			- BoardAlbumViewAction.java
+			- BoardAlbumMoveModifyAction.java
+			- BoardAlbumModifyAction.java
+			- BoardAlbumDeleteAction.java
+				
+		- com.fooding.board.action
+			- BoardListAction.java
+			- BoardWriteAction.java
+			- BoardViewAction.java
+			- BoardMoveModifyAction.java
+			- BoardModifyAction.java
+			- BoardDeleteAction.java
+		
+		- com.fooding.board.controller
+			- AlbumController.java			(/album)
+			- BoardController.java			(/board)
+		
+		- com.fooding.board.model
+			- AlbumDto.java
+			- BoardDto.java
+		
+		- com.fooding.board.service
+			- AlbumService.java 			(I)
+			- AlbumServiceImpl.java
+			- BoardService.java 			(I)
+			- BoardServiceImpl.java
+		
+		- com.fooding.board.dao
+			- AlbumDao.java 				(I)
+			- AlbumDaoImpl.java
+			- BoardDao.java 				(I)
+			- BoardDaoImpl.java
+		
+		- com.fooding.board.common.service
+			- BoardCommonService.java 			(I)
+			- BoardCommonServiceImpl.java
+		
+		- com.fooding.board.common.dao
+			- BoardCommonDao.java 				(I)
+			- BoardCommonDaoImpl.java
+		
+		-----------------------------------------------------------------
+		-------------------------공          통--------------------------
+		-----------------------------------------------------------------
+		
+		- com.fooding.factory
+			- BoardAdminActionFactory.java
+			- BoardActionFactory.java
+			- MemberAdminAcionFactory.java
+			- MemberActionFactory.java
+			- StoreAdminAcionFactory.java
+			- StoreActionFactory.java
+		
+		- com.fooding.db
+			- DBConnection.java
+			- DBClose.java
+		
+		- com.fooding.util
+			- BoardConstance.java
+			- PageNavigation.java
+			
+	
+	- webContent
+		- css
+		- js
+		- img
+		- doc
+		---------------------------
+		-------- *.jsp
+		- admin
+		- common : common.jsp
+		- album
+		- bbs
+		- board
+		- reboard
+		- index.jsp
